@@ -1,0 +1,30 @@
+{
+  "name": "coins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.2",
+    "jasmine-core": "^2.5.2",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alliancenikolay/coins.git"
+  },
+  "author": "Nikolay Moiseenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alliancenikolay/coins/issues"
+  },
+  "homepage": "https://github.com/alliancenikolay/coins#readme"
+}

@@ -1,0 +1,29 @@
+<div class="timer">{{time}}</div>
+<div>
+    <div class="coins">
+        <div class="coin-store">
+            <div ng-repeat="coin in getCoins()" class="coin"></div>
+        </div>
+        <div class="free-coins-count">
+            = {{free_coins.value}}
+        </div>
+    </div>
+            <span>
+                Using the buttons, add your 10 gold coins to  the following categories to show how you normaly spend
+                your income:
+            </span>
+</div>
+<div class="counters">
+    <div ng-repeat="cat in categories" class="category">
+        <div class="category-label">
+            {{cat.name}}
+        </div>
+        <div class="pull-right">
+            <button ng-click="changeCoin(-1, cat)">-</button>
+            <div class="counter">{{cat.coins}}</div>
+            <button ng-click="changeCoin(1, cat)">+</button>
+        </div>
+    </div>
+</div>
+
+<button class="pull-right next clearfix" ng-hide="free_coins.value" ng-click="goNext()"></button>

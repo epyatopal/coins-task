@@ -1,0 +1,109 @@
+.frame {
+    width: 300px;
+    border: #666 8px solid;
+    margin: 40px auto 0px;
+    height: 438px;
+    padding: 8px 22px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #666;
+    font-family: Arial;
+    line-height: 20px;
+}
+
+.timer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+}
+
+.coins {
+    width: 125px;
+    height:80px;
+    float: right;
+}
+
+.clearfix {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.category {
+    height: 40px;
+}
+.category-label {
+    line-height: 35px;
+    display: inline-block
+}
+
+.category button {
+    background: #8CBFD3;
+    color: #fff;
+    border-width: 0px;
+    line-height: 31px;
+    border-radius: 15px;
+    width: 25px;
+    display: inline-block;
+    cursor:pointer;
+}
+
+*:focus {
+    outline: none;
+}
+
+.counters {
+    margin-top: 30px;
+}
+
+.counter {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 10px;
+    text-align:center;
+    background-color: #666;
+    color: #fff;
+}
+
+.pull-right {
+    float: right;
+}
+
+.next {
+    background-image: url("images/arrow.png");
+    width: 55px;
+    height: 55px;
+    margin-top: 22px;
+    border-width: 0px;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.coin {
+    height: 2px;
+    width: 64px;
+    background: #F2C227;
+    border: 1px solid #DB9D39;
+    border-radius: 2px;
+}
+
+.coin-store {
+    margin-top: 18px;
+    margin-left: 18px;
+    float: left;
+    height: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 66px;
+}
+
+.free-coins-count {
+    display: inline-block;
+    line-height: 44px;
+    margin-top: 18px;
+    padding-left: 8px;
+}
